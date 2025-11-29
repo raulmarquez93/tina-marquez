@@ -20,7 +20,7 @@ return (
 </div>
 <div className="relative rounded-2xl overflow-hidden h-80 md:h-[36rem]">
   <img
-    src="/hero.png"
+    src="hero.png"
     alt="Hero"
     className="w-full h-full object-cover object-[center_2%]" // <- sube el encuadre
     loading="eager"
