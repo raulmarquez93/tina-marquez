@@ -1,6 +1,6 @@
 export type ServiceItem = { name: string; desc: string; price: string; featured?: boolean };
 export type ServiceCategory = { category: string; items: ServiceItem[] };
-export type TeamMember = { name: string; role: string; bio: string };
+export type TeamMember = { name: string; role: string; bio: string;  image?: string;};
 export type Testimonial = { author: string; quote: string };
 
 export type Business = {
