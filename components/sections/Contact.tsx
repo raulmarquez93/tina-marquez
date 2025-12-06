@@ -20,7 +20,6 @@ return (
 <p className="text-white/70 mt-2">Estamos en {business.address}.</p>
 <div className="mt-6 space-y-2 text-white/80">
 <p className="flex items-center gap-2"><Phone size={16} /> <a className="underline hover:text-[#D4AF37]" href={`tel:${business.phone.replace(/\s+/g, "")}`}>{business.phone}</a></p>
-<p className="flex items-center gap-2"><Mail size={16} /> <a className="underline hover:text-[#D4AF37]" href={`mailto:${business.email}`}>{business.email}</a></p>
 <p className="flex items-center gap-2"><Instagram size={16} /> <a className="underline hover:text-[#D4AF37]" href={business.social.instagram} target="_blank" rel="noreferrer">Instagram</a></p>
 <p className="flex items-center gap-2"><Facebook size={16} /> <a className="underline hover:text-[#D4AF37]" href={business.social.facebook} target="_blank" rel="noreferrer">Facebook</a></p>
 <p className="flex items-center gap-2"><MapPin size={16} /> <a className="underline hover:text-[#D4AF37]" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(business.address)}`} target="_blank" rel="noreferrer">Cómo llegar</a></p>

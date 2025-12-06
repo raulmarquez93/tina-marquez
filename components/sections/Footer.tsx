@@ -26,7 +26,6 @@ return (
 <ul className="space-y-2">
 <li>{business.address}</li>
 <li>{business.phone}</li>
-<li>{business.email}</li>
 </ul>
 </div>
 <div>
