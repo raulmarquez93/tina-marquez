@@ -13,6 +13,7 @@ import Footer from "@/components/sections/Footer";
 
 
 
+
 export default function Page() {
 const scrollToBooking = () => {
 document.getElementById("reservas")?.scrollIntoView({ behavior: "smooth" });
@@ -50,7 +51,7 @@ return (
 
 
 <Services data={site.services} />
-<Gallery />
+<Gallery list={site.galeria} />
 <BookingPlaceholder phone={site.business.phone} whatsapp={site.business.social.whatsapp} />
 <Team list={site.team} />
 <Testimonials items={site.testimonials} />

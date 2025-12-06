@@ -5,7 +5,6 @@ export const site: SiteData = {
     name: "Peluquería Tina Márquez",
     address: "Carrer Bon Repòs, 1, Bajo, 03590 Altea, Alicante",
     phone: "965 84 22 18",
-    email: "info@tinamarquez.com",
     hours: [
       { d: "Lunes", v: "09:30–14:00" },
       { d: "Martes", v: "Cerrado" },
@@ -64,8 +63,19 @@ export const site: SiteData = {
       ]
     }
   ],
+  galeria: [
+    { src: "pelo1.jpg", alt: "peinado 1" },
+    { src: "pelo2.jpg", alt: "peinado 2" },
+    { src: "pelo3.jpg", alt: "peinado 3" },
+    { src: "pelo4.jpg", alt: "peinado 4" },
+    { src: "pelo5.jpg", alt: "peinado 5" },
+    { src: "pelo6.jpg", alt: "peinado 6" },
+    { src: "pelo7.jpg", alt: "peinado 7" },
+    { src: "pelo8.jpg", alt: "peinado 8" }
+  ],
+
   team: [
-    { name: "Tina Márquez", image: "equipo.png", role: "Directora creativa", bio: "Especialista en coloración premium y diagnóstico personalizado. 12+ años de experiencia." },
+    { name: "Tina Márquez", image: "tina.jpg", role: "Directora creativa", bio: "Dueña del salón y especialista máxima en cortes, recogidos, coloración premium y tratamientos de keratina. Más de 12 años creando estilos personalizados y de alta calidad." },
     { name: "Elena Rivas", image: "equipo.png", role: "Senior Colorist", bio: "Balayage, corrección de color y técnicas freehand." },
     { name: "María López", image: "equipo.png", role: "Stylist & Keratin Expert", bio: "Corte femenino, keratina y alisado orgánico." },
     { name: "Sofía Martín", image: "equipo.png", role: "Bridal & Events", bio: "Recogidos, peinados de evento y novias." }
